@@ -1,5 +1,5 @@
 {
-  "name": "vue3-vite-mapbox",
+  "name": "maplibre",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -11,14 +11,16 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@arco-plugins/vite-vue": "^1.4.5",
     "element-plus": "^2.7.5",
-    "mapbox-gl": "^3.4.0",
+    "less": "^4.2.2",
+    "maplibre-gl": "^5.1.1",
     "pinia": "^2.1.7",
-    "sass": "^1.77.6",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
+    "@arco-design/web-vue": "^2.56.3",
     "@rushstack/eslint-patch": "^1.8.0",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vue/eslint-config-prettier": "^9.0.0",

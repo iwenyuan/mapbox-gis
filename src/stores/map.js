@@ -4,12 +4,12 @@ export const useMapStore = defineStore('map', () => {
   let map = null
   let view = null
 
-  const setMap = (map) => {
-    this.map = map
+  const setMap = (mapIns) => {
+    map = mapIns
   }
 
-  const setView = (view) => {
-    this.view = view
+  const setView = (viewIns) => {
+    view = viewIns
   }
 
   return { map, setMap, view, setView }
